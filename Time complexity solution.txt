@@ -1,0 +1,40 @@
+Algo # 1
+Calculation: O(1*n) 
+Time complexity: O(n).
+
+Algo # 2
+Calculation: n*n*O(1) => O(n^2) 
+Time complexity: O(n^2).
+
+Algo # 3
+Calculation: n*O(1) + n*O(1) => n + n => 2n => n 
+Time complexity: O(n)
+
+Algo # 4
+for example: if n=100
+output will be 50, 25, 12.5, 6.25 and so on.
+this logarith is simply opposite to algo # 5. 
+Time complexity: O(log2 n)
+
+Algo # 5
+for example: if n=100
+output will be 2, 4, 8, 16, 32, 64.
+we can write this series as n=2^k (where k = number of iterations)
+n= 2^k => log2 n =k
+Calculation: O(1) + log2 n => log2 n 
+Time complexity: O(log2 n)
+
+Algo # 6
+Calculation: O(1) + ((n+1)*O(1)) + O(1) => n+1 => n 
+Time complexity: O(n)
+
+Algo # 7
+Calculation: n*n*(n*O(1)) => n*n*n => n^3 
+Time complexity: O(n^3)
+
+Algo # 8
+Calculation: O(1) + O(1) + ((n*O(1) + (m*O(1)) => n + m 
+Time complexity: O(n+m)
+
+
+
